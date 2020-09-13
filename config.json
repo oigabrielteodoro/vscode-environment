@@ -1,0 +1,83 @@
+{ 
+  "workbench.colorTheme": "Dracula",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.labelFormat": "short",
+  "extensions.ignoreRecommendations": true,
+  "window.zoomLevel": 1,
+  "editor.fontSize": 12,
+  "editor.lineHeight": 24,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true, 
+  "editor.rulers": [80, 120],
+  "editor.tabSize": 2,
+  "editor.renderLineHighlight": "gutter",
+  "terminal.integrated.fontSize": 12,
+
+  "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+      "javascript": "jsx"
+  },
+
+  "editor.parameterHints.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+
+  "breadcrumbs.enabled": true,
+
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "[javascript]": {
+      "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": true
+      }
+  },
+  "[javascriptreact]": {
+      "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": true
+      }
+  },
+  "[typescript]": {
+      "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": true
+      }
+  },
+  "[typescriptreact]": {
+      "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": true
+      }
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  "material-icon-theme.folders.associations": {
+      "infra": "app",
+      "entities": "class",
+      "typeorm": "database",
+      "migrations": "tools",
+      "schemas": "class",
+      "seeds": "meta",
+      "repositories": "mappings",
+      "http": "container",
+      "modules": "packages",
+      "implementations": "core",
+      "dtos": "typescript",
+      "fakes": "mock",
+      "sections": "review",
+      "_layouts": "layout", 
+      "partials": "less",
+      "charts": "global",
+      "types": "typescript"
+  },
+
+  "material-icon-theme.files.associations": {
+      "ormconfig.json": "database",
+      "tsconfig.json": "tune", 
+      "tsconfig.paths.json": "routing"
+  }
+}
